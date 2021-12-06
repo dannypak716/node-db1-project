@@ -11,7 +11,7 @@ router.get('/', async (req, res, next) => {
   }
 })
 
-router.get('/:id', md.checkAccountId, async (req, res, next) => {
+router.get('/:id', md.checkAccountId, async (req, res) => {
   res.json(req.account)
 })
 
