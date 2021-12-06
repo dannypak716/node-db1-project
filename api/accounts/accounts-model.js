@@ -1,5 +1,5 @@
-const getAll = () => {
-  // DO YOUR MAGIC
+const getAll = async () => {
+  await 
 }
 
 const getById = id => {
